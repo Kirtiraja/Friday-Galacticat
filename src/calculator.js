@@ -6,6 +6,8 @@ export class Calculator {
   }
 
   planetAge(){
-
+    if(this.age === NaN){
+      return "enter age as a number"
+    }
   }
 };
