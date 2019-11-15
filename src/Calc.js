@@ -1,3 +1,11 @@
-export function Calc(age) {
+
+
+export class Calculator {
+  constructor(age){
   this.age = age;
 }
+
+  planetAge(){
+
+  }
+};
