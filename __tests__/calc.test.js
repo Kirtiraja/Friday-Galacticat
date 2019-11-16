@@ -13,7 +13,7 @@ describe('Calculator' , () => {
     });
 
   test('should correctly return age in mercury years', () => {
-    let mercuryAge = new Calculator(2);
-    expect(mercuryAge.planetAge()).toEqual(1);
+    let mercuryAge = new Calculator(38);
+    expect(mercuryAge.planetAge()).toEqual(158);
   });
 });

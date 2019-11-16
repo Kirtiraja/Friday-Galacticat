@@ -9,7 +9,7 @@ export class Calculator {
     if (this.age === 0){
       return "enter age greater than zero";
     }
-    return this.age =(this.age) /2;
+    return this.age =(parseFloat((this.age) /.24).toFixed());
 
   }
 }
