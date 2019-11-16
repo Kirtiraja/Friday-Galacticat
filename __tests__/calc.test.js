@@ -7,8 +7,8 @@ describe('Calculator' , () => {
       expect(calculator.age).toEqual(38);
     });
 
-  test('should correctly determine age of user on mercury', () => {
-    let mercuryAge = new Calculator(.241);
-    expect(mercuryAge.planetAge()).toEqual(1);
+  test('should correctly identify 0 ', () => {
+    let underAge = new Calculator(0);
+    expect(underAge.planetAge()).toEqual("enter age greater than zero");
     });
 });

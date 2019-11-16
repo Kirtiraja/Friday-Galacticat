@@ -6,7 +6,10 @@ export class Calculator {
   }
 
   planetAge(){
-    this.age = age/.241;
+    if (this.age === 0){
+      return "enter age greater than zero";
+    }
+
 
   }
 };
