@@ -10,5 +10,10 @@ describe('Calculator' , () => {
   test('should correctly identify 0 ', () => {
     let underAge = new Calculator(0);
     expect(underAge.planetAge()).toEqual("enter age greater than zero");
-    });
+  });
+
+  test('should correctly return age in mercury years', () => {
+    let mercuryAge = new Calculator(.241);
+    expect(mercuryAge.planetAge()).toEqual(1);
+  });
 });
