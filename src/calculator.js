@@ -9,7 +9,7 @@ export class Calculator {
     if (this.age === 0){
       return "enter age greater than zero";
     }
-    this.age += this.age/.241;
+    return this.age =(this.age) /2;
 
   }
 }
