@@ -22,10 +22,10 @@ _How old are you on the planet Venus? This independent project assignment create
 | Behavior: | Input Example: | Output Example: |
 | - | - | - |
 |if user inputs zero then program asks for increased value|"0"|"please enter your age as a number more than 0"|
-|User inputted age returned in "mercury years"|"38"|"your age on Mercury:157.67"|
-|||
-||||
-||||
+|User inputted age returned in "mercury years"|"38"|"your age on Mercury:158"|
+|Returns user's age in Venus years|"38"|"61"
+|Returns user's age in Mars years|"38"|"20"|
+|Returns user's age in Jupiter years|"38"|"3"|
 ||||
 ||||
 
