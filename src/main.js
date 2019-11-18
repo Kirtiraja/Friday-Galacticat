@@ -8,7 +8,8 @@ $(document).ready(function() {
   $('#userAge-form').submit(function(event) {
     event.preventDefault();
     let userInputAge = $('#userAge').val();
-    let output = new Calculator(userInputAge);
+    let userExpectency = $('#userExpectency').val();
+    let output = new Calculator(userInputAge, userExpectency);
     $('#solution').append("<li>" + output + "</li>");
   });
 });

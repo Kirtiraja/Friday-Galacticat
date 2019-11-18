@@ -26,7 +26,7 @@ _How old are you on the planet Venus? This independent project assignment create
 |Returns user's age in Venus years|"38"|"61"
 |Returns user's age in Mars years|"38"|"20"|
 |Returns user's age in Jupiter years|"38"|"3"|
-||||
+|Takes user's average expected lifespan and returns how many years left to live on specified planet|"38"|"213 years left"|
 ||||
 
 
