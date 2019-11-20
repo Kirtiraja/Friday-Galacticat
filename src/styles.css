@@ -2,3 +2,6 @@ body {
   background-image: url('./lazerCat.gif');
   margin: 25px;
 }
+.catHeader {
+  background-color: white;
+}

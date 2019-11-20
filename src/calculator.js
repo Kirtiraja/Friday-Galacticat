@@ -11,7 +11,7 @@ export class Calculator {
       return "enter age or expectency greater than zero";
     } else
       return this.age =(Math.floor((this.age) /.24));
-      // return this.expectency = (this.expectency)/.24 - this.age;
+      // return this.expectency = (this.expectency)/.24 - this.age; will become math for determining years of life remaining on each planet.
   }
 
   venusAge(){
